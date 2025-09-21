@@ -2,6 +2,9 @@
 
 一个基于React + Vite构建的交互式小说阅读器，支持多章节阅读、角色介绍、阅读设置等功能。
 
+## 在线体验
+访问：https://rain1andsnow2a.github.io/rune-whisper-novel/
+
 ## 🚀 在线体验
 
 项目已部署到GitHub Pages，可以直接访问：
