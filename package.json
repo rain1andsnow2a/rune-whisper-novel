@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://rain1andsnow2a.github.io/rune-whisper-novel",
   "scripts": {
     "dev:client": "vite --host --port 3000",
     "dev": "pnpm dev:client",
     "build:client": "vite build --outDir dist/static",
-    "build": "rm -rf dist && pnpm build:client && cp package.json dist && touch dist/build.flag"
+    "build": "rm -rf dist && pnpm build:client && cp package.json dist && touch dist/build.flag",
+    "predeploy": "pnpm run build:client",
+    "deploy": "gh-pages -d dist/static"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -25,6 +28,7 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.7.2",
