@@ -24,8 +24,8 @@ git add .
 # 提交代码
 git commit -m "Initial commit: 网页互动小说-符文的低语"
 
-# 添加远程仓库 (替换YOUR_USERNAME为你的GitHub用户名)
-git remote add origin https://github.com/YOUR_USERNAME/rune-whisper-novel.git
+# 添加远程仓库
+git remote add origin https://github.com/rain1andsnow2a/rune-whisper-novel.git
 
 # 推送到main分支
 git branch -M main
@@ -46,7 +46,7 @@ git push -u origin main
 - GitHub Actions会自动构建和部署你的网站
 - 在仓库的 "Actions" 标签页可以查看部署进度
 - 部署完成后，你的网站将在以下地址可访问:
-  `https://YOUR_USERNAME.github.io/rune-whisper-novel/`
+  `https://rain1andsnow2a.github.io/rune-whisper-novel/`
 
 ## 注意事项
 

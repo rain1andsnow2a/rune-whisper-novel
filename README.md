@@ -5,7 +5,7 @@
 ## 🚀 在线体验
 
 项目已部署到GitHub Pages，可以直接访问：
-[https://YOUR_USERNAME.github.io/rune-whisper-novel/](https://YOUR_USERNAME.github.io/rune-whisper-novel/)
+[https://rain1andsnow2a.github.io/rune-whisper-novel/](https://rain1andsnow2a.github.io/rune-whisper-novel/)
 
 ## 📦 部署到GitHub Pages
 
@@ -16,7 +16,7 @@
 deploy.bat
 
 # 或手动执行
-git remote add origin https://github.com/YOUR_USERNAME/rune-whisper-novel.git
+git remote add origin https://github.com/rain1andsnow2a/rune-whisper-novel.git
 git push -u origin main
 ```
 
